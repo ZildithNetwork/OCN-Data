@@ -1,0 +1,16 @@
+﻿name: Omega
+priority: 950
+badge_color: "#14BB06"
+badge_link: "/shop"
+minecraft_permissions:
+  normal:
+  - flair.donator
+  - lobby.fly
+  - overcast.premium
+  - pgm.fullserver
+  - pgm.join.full
+  - pgm.join.choose
+minecraft_flair:
+  normal:
+    symbol: "Alpha "
+    color: green

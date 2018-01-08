@@ -1,0 +1,79 @@
+﻿name: Official
+priority: 515
+html_color: "#669999"
+badge_link: /staff
+badge_color: "#669999"
+minecraft_permissions:
+  global: []
+  tournament:
+  - channels.global.send
+  - chat.official
+  - commandbook.broadcast
+  - commandbook.gamemode
+  - commandbook.gamemode.change
+  - commandbook.time.player
+  - pgm.cancel
+  - pgm.chat.all.receive
+  - pgm.cycle
+  - pgm.destroyable.edit
+  - pgm.fullserver
+  - pgm.join.force
+  - pgm.next.set
+  - pgm.skip
+  - pgm.start
+  - pgm.timelimit
+  - projectares.reports.receive
+  - projectares.reports.view
+  - projectares.reports.view.other
+  - projectares.staff
+  - server.restart
+  - tourney.referee
+  - whitelist.bypass
+  - whitelist.bypass
+  - whitelist.edit
+minecraft_flair:
+  tournament:
+    color: dark_aqua
+    symbol: 'OFFICIAL '
+web_permissions:
+  forum:
+    59ac4344a2e3a90001000045: #Staff/Discussion
+      topic:
+        create: true
+        index_parent: all
+        reply: all
+        hide: own
+        modify_archived: all
+        view_parent: all
+        view:
+          status:
+            locked: all
+            hidden: own
+        index:
+          status:
+            locked: all
+            hidden: own
+      post:
+        view_parent: all
+        edit_parent: own
+        hide: own
+    59ac4484a2e3a9000100004a: #Staff/Referees
+      topic:
+        create: true
+        index_parent: all
+        reply: all
+        hide: own
+        modify_archived: all
+        view_parent: all
+        view:
+          status:
+            locked: all
+            hidden: own
+        index:
+          status:
+            locked: all
+            hidden: own
+      post:
+        view_parent: all
+        edit_parent: own
+        hide: own

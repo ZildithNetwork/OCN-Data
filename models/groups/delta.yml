@@ -1,0 +1,16 @@
+﻿name: Delta
+priority: 950
+badge_color: "#669999"
+badge_link: "/shop"
+minecraft_permissions:
+  normal:
+  - flair.donator
+  - lobby.fly
+  - overcast.premium
+  - pgm.fullserver
+  - pgm.join.full
+  - pgm.join.choose
+minecraft_flair:
+  normal:
+    symbol: "Delta "
+    color: dark_aqua

@@ -1,0 +1,15 @@
+﻿name: Alpha
+priority: 950
+badge_color: "#7E7E7E"
+badge_link: "/shop"
+minecraft_permissions:
+  normal:
+  - flair.donator
+  - lobby.fly
+  - overcast.premium
+  - pgm.fullserver
+  - pgm.join.full
+minecraft_flair:
+  normal:
+    symbol: "Alpha "
+    color: gray

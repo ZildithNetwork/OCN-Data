@@ -1,6 +1,6 @@
 name: _default
 priority: 1000
-html_color: "#08c"
+html_color: "#503288"
 badge_text_color: none
 web_permissions:
   site:

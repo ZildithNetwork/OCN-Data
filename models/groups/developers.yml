@@ -1,13 +1,13 @@
-﻿name: Administrators
+﻿name: Developers
 priority: 100
 staff: true
-html_color: "#f89406"
-badge_color: "#f89406"
+html_color: "#6a1b9a"
+badge_color: "#6a1b9a"
 badge_link: "/staff"
 minecraft_flair:
   global:
-    symbol: 'ADMIN '
-    color: gold
+    symbol: 'DEV '
+    color: dark_purple
 minecraft_permissions:
   global:
   - "-nocheatplus.checks"

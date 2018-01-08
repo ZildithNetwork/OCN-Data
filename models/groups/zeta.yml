@@ -1,0 +1,22 @@
+﻿name: Zeta
+priority: 950
+badge_color: "#252525"
+badge_link: "/shop"
+minecraft_permissions:
+  normal:
+  - flair.donator
+  - lobby.fly
+  - overcast.premium
+  - pgm.fullserver
+  - pgm.join.full
+  - pgm.join.choose
+  - setting.nick
+  - setting.nick.any.get
+  - setting.nick.immediate
+  - setting.nick.set
+  - setting.nick.unlimited
+  - setting.nick.view
+minecraft_flair:
+  normal:
+    symbol: "Zeta "
+    color: dark gray
