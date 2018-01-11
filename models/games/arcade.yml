@@ -1,4 +1,4 @@
-# name: Arcade
-# priority: 100
-# network: PUBLIC
-# visibility: PUBLIC
+name: Arcade
+priority: 100
+network: PUBLIC
+visibility: PUBLIC
