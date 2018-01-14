@@ -19,6 +19,7 @@ minecraft_permissions:
   - chat.mod
   - chat.developer
   - chat.official
+  - chat.premium
   - chatmoderator.filters.exempt
   - commandbook.*
   - database.disconnect
@@ -59,3 +60,4 @@ minecraft_permissions:
   - whitelist.bypass
   - whitelist.edit
   - worldedit.*
+  - raindrops.multiplier.250

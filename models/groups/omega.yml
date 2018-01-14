@@ -10,7 +10,9 @@ minecraft_permissions:
   - pgm.fullserver
   - pgm.join.full
   - pgm.join.choose
+  - chat.premium
+  - raindrops.multiplier.175
 minecraft_flair:
   normal:
-    symbol: "Alpha "
+    symbol: "Omega "
     color: green

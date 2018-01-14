@@ -9,6 +9,7 @@ minecraft_permissions:
   - overcast.premium
   - pgm.fullserver
   - pgm.join.full
+  - chat.premium
 minecraft_flair:
   normal:
     symbol: "Alpha "

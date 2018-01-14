@@ -8,6 +8,7 @@ minecraft_permissions:
   tournament:
   - channels.global.send
   - chat.official
+  - chat.premium
   - commandbook.broadcast
   - commandbook.gamemode
   - commandbook.gamemode.change

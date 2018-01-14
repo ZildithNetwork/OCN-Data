@@ -16,6 +16,8 @@ minecraft_permissions:
   - setting.nick.set
   - setting.nick.unlimited
   - setting.nick.view
+  - chat.premium
+  - raindrops.multiplier.200
 minecraft_flair:
   normal:
     symbol: "Zeta "

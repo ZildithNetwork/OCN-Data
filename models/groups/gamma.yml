@@ -10,6 +10,8 @@ minecraft_permissions:
   - pgm.fullserver
   - pgm.join.full
   - pgm.join.choose
+  - chat.premium
+  - raindrops.multiplier.150
 minecraft_flair:
   normal:
     symbol: "Gamma "

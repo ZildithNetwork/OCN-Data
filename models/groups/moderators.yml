@@ -13,6 +13,7 @@ minecraft_permissions:
     - nick.see-through-all
   normal:
     - chat.mod
+    - chat.premium
     - chatmoderator.filters.exempt
     - commandbook.broadcast
     - commandbook.debug.clock
