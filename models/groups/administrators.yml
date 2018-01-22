@@ -1,4 +1,5 @@
-﻿name: Administrators
+﻿    include Experience
+name: Administrators
 priority: 100
 staff: true
 html_color: "#f89406"
