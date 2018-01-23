@@ -1,6 +1,6 @@
 ﻿name: Delta
 priority: 950
-badge_color: "#669999"
+badge_color: "#5289c4"
 badge_link: "/shop"
 minecraft_permissions:
   normal:
