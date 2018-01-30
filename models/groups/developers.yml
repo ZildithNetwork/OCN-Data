@@ -51,8 +51,8 @@ minecraft_permissions:
   - whitelist.edit
   - worldedit.*
   - raindrops.multiplier.250
-  staff: true
-  minecraft_flair:
-    global:
-      symbol: "DEV "
-      color: dark_purple
+staff: true
+minecraft_flair:
+  global:
+    symbol: "DEV "
+    color: dark_purple
