@@ -1,15 +1,10 @@
 ﻿name: Map Developers
 priority: 360
-staff: true
-html_color: "#006BD2"
-badge_color: "#006BD2"
+html_color: "#006bd2"
+badge_color: "#006bd2"
 badge_link: "/staff"
-minecraft_flair:
-  global:
-    symbol: 'MAP DEV '
-    color: blue
 minecraft_permissions:
-  normal:
+  global:
   - bukkit.command.gamerule
   - chat.developer
   - flair.mapdev
@@ -66,3 +61,8 @@ minecraft_permissions:
   - worldedit.tool.info
   - worldedit.wand
   - worldedit.wand.toggle
+staff: true
+minecraft_flair:
+  global:
+    symbol: 'MAP DEV '
+    color: blue
