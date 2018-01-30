@@ -76,8 +76,8 @@ web_permissions:
       topic:
         view:
           status:
-            locked: all
-            hidden: all
+            locked: own
+            hidden: own
     5a70ddfd7e43a65a03000010: #Applications:Media Apps
       topic:
         view:

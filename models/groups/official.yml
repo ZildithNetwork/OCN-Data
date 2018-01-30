@@ -4,10 +4,10 @@ html_color: "#669999"
 badge_link: /staff
 badge_color: "#669999"
 minecraft_permissions:
-  global: []
+  global:
+  - chat.official
   tournament:
   - channels.global.send
-  - chat.official
   - chat.premium
   - pgm.cancel
   - pgm.chat.all.receive
