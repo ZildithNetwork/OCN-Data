@@ -64,5 +64,5 @@ minecraft_permissions:
 staff: true
 minecraft_flair:
   global:
-    symbol: 'MAP DEV '
+    symbol: "MAP DEV "
     color: blue
