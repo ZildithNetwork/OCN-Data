@@ -1,14 +1,8 @@
-﻿    include Experience
 name: Administrators
 priority: 100
-staff: true
-html_color: "#f89406"
-badge_color: "#f89406"
+html_color: "#f9a825"
+badge_color: "#f9a825"
 badge_link: "/staff"
-minecraft_flair:
-  global:
-    symbol: 'ADMIN '
-    color: gold
 minecraft_permissions:
   global:
   - "-nocheatplus.checks"
@@ -17,10 +11,6 @@ minecraft_permissions:
   - bukkit.command.gamemode
   - bukkit.command.gamerule
   - chat.admin
-  - chat.mod
-  - chat.developer
-  - chat.official
-  - chat.premium
   - chatmoderator.filters.exempt
   - commandbook.*
   - database.disconnect
@@ -58,7 +48,14 @@ minecraft_permissions:
   - setting.nick.set
   - setting.nick.unlimited
   - skin.change
+  - sudo
+  - sudo.others
+  - tokens.give
   - whitelist.bypass
   - whitelist.edit
   - worldedit.*
-  - raindrops.multiplier.250
+staff: true
+minecraft_flair:
+  global:
+    symbol: "[Admin] "
+    color: gold
