@@ -50,7 +50,6 @@ minecraft_permissions:
   - skin.change
   - sudo
   - sudo.others
-  - tokens.give
   - whitelist.bypass
   - whitelist.edit
   - worldedit.*
