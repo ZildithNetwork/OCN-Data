@@ -10,8 +10,6 @@ minecraft_flair:
     color: dark_purple
 minecraft_permissions:
   global:
-  - "-nocheatplus.checks"
-  - "-nocheatplus.mods.rei"
   - "-projectares.report.exempt"
   - bukkit.command.gamemode
   - bukkit.command.gamerule
@@ -21,7 +19,6 @@ minecraft_permissions:
   - chat.official
   - chat.premium
   - chatmoderator.filters.exempt
-  - commandbook.*
   - database.disconnect
   - database.edit
   - database.flush
@@ -32,8 +29,6 @@ minecraft_permissions:
   - lobby.disabled-permissions-exempt
   - lobby.fly
   - lobby.restricted.access
-  - nocheatplus.checks.chat
-  - nocheatplus.checks.moving.boatsanywhere
   - ocn.developer
   - ocn.login
   - ocn.teleport.others
