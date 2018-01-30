@@ -8,6 +8,136 @@ minecraft_flair:
   normal:
     color: red
     symbol: "MOD "
+web_permissions:
+  site:
+    login: true
+  forum:
+    parent:
+      topic:
+        view:
+          status:
+            locked: all
+            hidden: all
+        index_parent: all
+        index:
+          status:
+            locked: all
+            hidden: all
+        view_parent: all
+        create: true
+        reply: all
+        hide: all
+      post:
+        view_parent: all
+        hide: all
+        edit_parent: own
+    5a70d97a7e43a65a0300000b: #Staff:Moderators
+      topic:
+        view:
+          status:
+            locked: all
+            hidden: own
+        index_parent: all
+        index:
+          status:
+            locked: all
+            hidden: own
+        view_parent: all
+        create: true
+        reply: all
+        hide: all
+      post:
+        view_parent: all
+        hide: all
+        edit_parent: all
+    5a70da607e43a65a01000005: #Staff:Candidates
+      topic:
+        view:
+          status:
+            locked: all
+            hidden: own
+        index_parent: all
+        index:
+          status:
+            locked: all
+            hidden: own
+        view_parent: all
+        create: true
+        reply: all
+        hide: all
+      post:
+        view_parent: all
+        hide: all
+        edit_parent: all
+    5a6fbc9d7e43a61097000008: #Zildith: Ask the Staff
+      topic:
+        reply: all
+    5a6fbe4f7e43a6109a000012: #Applications:Mod Apps
+      topic:
+        view:
+          status:
+            locked: all
+            hidden: all
+    5a70ddfd7e43a65a03000010: #Applications:Media Apps
+      topic:
+        view:
+          status:
+            locked: own
+            hidden: own
+    5a70de0e7e43a65a03000011: #Applications:Map Dev Apps
+      topic:
+        view:
+          status:
+            locked: own
+            hidden: own
+  punishment:
+    view:
+      type:
+        warn: all
+        kick: all
+        ban: all
+        forum_warn: all
+        forum_ban: all
+        tourney_ban: all
+      status:
+        stale: all
+        inactive: all
+        automatic: all
+        contested: all
+    index:
+      type:
+        warn: all
+        kick: all
+        ban: all
+        forum_warn: all
+        forum_ban: all
+        tourney_ban: all
+      status:
+        inactive: all
+        automatic: all
+        contested: all
+        stale: all
+    distinguish_status:
+      inactive: all
+      automatic: all
+      contested: all
+  report:
+    create: true
+    index: all
+    view: all
+    comment: all
+    action_on_escalated:
+      comment: all
+  appeal:
+    create: true
+    view: all
+    comment: all
+    index: all
+    action_on_closed:
+      comment: all
+      escalate: all
+    action_on_escalated:
+      comment: all
 minecraft_permissions:
   global:
     - nick.see-through-all
@@ -18,39 +148,24 @@ minecraft_permissions:
     - flair.mod
     - lobby.disabled-permissions-exempt
     - lobby.fly
-    - minecraft.command.stop
     - mutation.list
-    - mutation.set
     - nick.see-through-all
     - ocn.punishments
     - ocn.punishments.ban
     - ocn.punishments.kick
     - ocn.punishments.lookup.stale
-    - ocn.punishments.punish
+#    - ocn.punishments.punish
     - ocn.punishments.warn
     - ocn.version
     - overcast.premium
-    - pgm.cancel
-    - pgm.chat.all.receive
-    - pgm.cycle
     - pgm.defuse
-    - pgm.end
     - pgm.fullserver
     - pgm.join
     - pgm.join.choose
     - pgm.join.force
     - pgm.join.full
-    - pgm.mapreload
-    - pgm.next.set
-    - pgm.rotation.reload
-    - pgm.skip
-    - pgm.start
-    - pgm.team.shuffle
-    - pgm.team.size
-    - pgm.timelimit
     - projectares.appeals.alerts
     - projectares.freeze
-    - projectares.freeze.exempt
     - projectares.lookup
     - projectares.lookup.type.ban
     - projectares.lookup.type.forum_ban
