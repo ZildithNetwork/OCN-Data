@@ -25,6 +25,68 @@ web_permissions:
         view_parent: all
         hide: own
         edit_parent: own
+    5a6fb8c97e43a61097000007: #Announcements
+      topic:
+        create: false
+    5a70d97a7e43a65a0300000b: #Staff:Moderators
+      topic:
+        view:
+          status:
+            locked: none
+            hidden: none
+        index_parent: none
+        index:
+          status:
+            locked: none
+            hidden: none
+        view_parent: none
+        create: false
+        reply: none
+        hide: none
+      post:
+        view_parent: none
+        hide: none
+        edit_parent: none
+    5a70da607e43a65a01000005: #Staff:Candidates
+      topic:
+        view:
+          status:
+            locked: none
+            hidden: none
+        index_parent: none
+        index:
+          status:
+            locked: none
+            hidden: none
+        view_parent: none
+        create: false
+        reply: none
+        hide: none
+      post:
+        view_parent: none
+        hide: none
+        edit_parent: none
+    5a6fbc9d7e43a61097000008: #Zildith: Ask the Staff
+      topic:
+        reply: own
+    5a6fbe4f7e43a6109a000012: #Applications:Mod Apps
+      topic:
+        view:
+          status:
+            locked: own
+            hidden: own
+    5a70ddfd7e43a65a03000010: #Applications:Media Apps
+      topic:
+        view:
+          status:
+            locked: own
+            hidden: own
+    5a70de0e7e43a65a03000011: #Applications:Map Dev Apps
+      topic:
+        view:
+          status:
+            locked: own
+            hidden: own
   punishment:
     view:
       type:
