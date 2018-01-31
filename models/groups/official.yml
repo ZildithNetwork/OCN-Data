@@ -28,6 +28,7 @@ minecraft_permissions:
   - whitelist.bypass
   - whitelist.bypass
   - whitelist.edit
+staff: true
 minecraft_flair:
   tournament:
     color: dark_aqua
