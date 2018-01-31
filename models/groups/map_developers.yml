@@ -10,7 +10,6 @@ minecraft_permissions:
   - flair.mapdev
   - lobby.fly
   - map.rating.view.live
-  - minecraft.command.stop
   - mutation.set
   - nick.see-through-all
   - ocn.version
