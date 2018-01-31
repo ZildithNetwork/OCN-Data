@@ -1,0 +1,25 @@
+name: Event Staff
+priority: 600
+html_color: "#669999"
+badge_link: /staff
+badge_color: "#669999"
+minecraft_permissions:
+  global:
+  - chat.official
+  tournament:
+  - channels.global.send
+  - pgm.chat.all.receive
+  - pgm.fullserver
+  - pgm.join.force
+  - projectares.reports.receive
+  - projectares.reports.view
+  - projectares.reports.view.other
+  - projectares.staff
+  - tourney.referee
+ # - whitelist.bypass
+ # - whitelist.bypass
+ # - whitelist.edit
+minecraft_flair:
+  tournament:
+    color: light_purple
+    symbol: 'EVENT STAFF '
