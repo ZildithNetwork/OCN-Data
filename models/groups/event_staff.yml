@@ -1,8 +1,8 @@
 name: Event Staff
 priority: 600
-html_color: "#669999"
+html_color: "#9b59b6"
 badge_link: /staff
-badge_color: "#669999"
+badge_color: "#9b59b6"
 minecraft_permissions:
   global:
   - chat.official
