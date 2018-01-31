@@ -1,5 +1,5 @@
 name: Administrators
-priority: 100
+priority: 0
 html_color: "#f9a825"
 badge_color: "#f9a825"
 badge_link: "/staff"
