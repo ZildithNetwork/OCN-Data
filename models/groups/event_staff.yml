@@ -17,6 +17,9 @@ minecraft_permissions:
   - tourney.referee
 staff: true
 minecraft_flair:
+  global:
+    color: dark_purple
+    symbol: "⨁"
   tournament:
     color: dark_purple
-    symbol: "EVENT STAFF "
+    symbol: "REF "
