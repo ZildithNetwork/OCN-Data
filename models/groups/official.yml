@@ -6,6 +6,8 @@ badge_color: "#669999"
 minecraft_permissions:
   global:
   - chat.official
+  - projectares.lookup
+  - projectares.lookup.type.tourney_ban
   tournament:
   - channels.global.send
   - chat.premium
@@ -19,9 +21,12 @@ minecraft_permissions:
   - pgm.skip
   - pgm.start
   - pgm.timelimit
+  - ocn.punishments.tourney_ban
   - projectares.reports.receive
   - projectares.reports.view
   - projectares.reports.view.other
+  - projectares.lookup
+  - projectares.lookup.type.tourney_ban
   - projectares.staff
   - server.restart
   - tourney.referee
@@ -36,3 +41,39 @@ minecraft_flair:
   tournament:
     color: dark_aqua
     symbol: "OFFICIAL "
+web_permissions:
+  punishment:
+    view:
+      type:
+        tourney_ban: all
+      status:
+        stale: all
+        inactive: all
+        automatic: all
+        contested: all
+    edit:
+      reason: own
+      type: own
+      active: own
+      expire: own
+      evidence: own
+    create:
+      tourney_ban: true
+  appeal:
+    create: true
+    view: involved
+    comment: involved
+    index: involved
+    close: involved
+    open: involved
+    action_on_closed:
+      comment: involved
+      escalate: involved
+      open: involved
+      appeal: involved
+      unappeal: involved
+      expire: involved
+    action_on_escalated:
+      comment: involved
+    escalate:
+        immediately: involved

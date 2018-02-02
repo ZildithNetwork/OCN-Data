@@ -66,6 +66,44 @@ web_permissions:
         view_parent: none
         hide: none
         edit_parent: none
+    5a72425d7e43a638b4000020: #Staff:Events
+      topic:
+        view:
+          status:
+            locked: none
+            hidden: none
+        index_parent: none
+        index:
+          status:
+            locked: none
+            hidden: none
+        view_parent: none
+        create: false
+        reply: none
+        hide: none
+      post:
+        view_parent: none
+        hide: none
+        edit_parent: none
+    5a7243147e43a638b4000021: #Staff:Map Devs
+      topic:
+        view:
+          status:
+            locked: none
+            hidden: none
+        index_parent: none
+        index:
+          status:
+            locked: none
+            hidden: none
+        view_parent: none
+        create: false
+        reply: none
+        hide: none
+      post:
+        view_parent: none
+        hide: none
+        edit_parent: none
     5a6fbc9d7e43a61097000008: #Zildith: Ask the Staff
       topic:
         reply: own
@@ -75,18 +113,22 @@ web_permissions:
           status:
             locked: own
             hidden: own
-    5a70ddfd7e43a65a03000010: #Applications:Media Apps
+        index_parent: none
+        view_parent: none
+        create: false
+        reply: none
+        hide: none
+    5a73a5eb7e43a638b7000023: #Applications:Other
       topic:
         view:
           status:
             locked: own
             hidden: own
-    5a70de0e7e43a65a03000011: #Applications:Map Dev Apps
-      topic:
-        view:
-          status:
-            locked: own
-            hidden: own
+        index_parent: none
+        view_parent: none
+        create: false
+        reply: none
+        hide: none
   punishment:
     view:
       type:

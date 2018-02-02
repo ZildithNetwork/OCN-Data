@@ -13,6 +13,7 @@ web_permissions:
     login: true
   forum:
     parent:
+      bypass_cooldown: true
       topic:
         view:
           status:
@@ -27,10 +28,13 @@ web_permissions:
         create: true
         reply: all
         hide: all
+        move: all
+        lock: all
+        unlock: all
       post:
         view_parent: all
         hide: all
-        edit_parent: own
+        edit_parent: all
     5a70d97a7e43a65a0300000b: #Staff:Moderators
       topic:
         view:
@@ -46,10 +50,11 @@ web_permissions:
         create: true
         reply: all
         hide: all
+        move: own
       post:
         view_parent: all
         hide: all
-        edit_parent: all
+        edit_parent: own
     5a70da607e43a65a01000005: #Staff:Candidates
       topic:
         view:
@@ -72,24 +77,6 @@ web_permissions:
     5a6fbc9d7e43a61097000008: #Zildith: Ask the Staff
       topic:
         reply: all
-    5a6fbe4f7e43a6109a000012: #Applications:Mod Apps
-      topic:
-        view:
-          status:
-            locked: own
-            hidden: own
-    5a70ddfd7e43a65a03000010: #Applications:Media Apps
-      topic:
-        view:
-          status:
-            locked: own
-            hidden: own
-    5a70de0e7e43a65a03000011: #Applications:Map Dev Apps
-      topic:
-        view:
-          status:
-            locked: own
-            hidden: own
   punishment:
     view:
       type:
@@ -121,11 +108,28 @@ web_permissions:
       inactive: all
       automatic: all
       contested: all
+    edit:
+      reason: own
+      type: own
+      active: own
+      expire: own
+      evidence: all
+    create:
+      warn: true
+      kick: true
+      ban: true
   report:
     create: true
     index: all
     view: all
     comment: all
+    close: all
+    open: all
+    escalate:
+      immediately: all
+    action_on_closed:
+      open: all
+      comment: all
     action_on_escalated:
       comment: all
   appeal:
@@ -133,11 +137,22 @@ web_permissions:
     view: all
     comment: all
     index: all
+    close: involved
+    open: involved
     action_on_closed:
       comment: all
       escalate: all
+      open: involved
+      appeal: involved
+      unappeal: involved
+      expire: involved
     action_on_escalated:
       comment: all
+    escalate:
+        immediately: involved
+  misc:
+    name_change:
+        index: all
 minecraft_permissions:
   global:
     - nick.see-through-all
@@ -169,10 +184,10 @@ minecraft_permissions:
     - projectares.lookup
     - projectares.lookup.type.ban
     - projectares.lookup.type.forum_ban
-    - projectares.lookup.type.forum_warn.own
+    - projectares.lookup.type.forum_warn
     - projectares.lookup.type.kick
     - projectares.lookup.type.tourney_ban
-    - projectares.lookup.type.warn.own
+    - projectares.lookup.type.warn
     - projectares.moderator
     - projectares.msg.override
     - projectares.reports.receive
@@ -192,14 +207,4 @@ minecraft_permissions:
     - setting.nick.immediate
     - setting.nick.set
     - setting.nick.unlimited
-    - worldedit.analysis.*
-    - worldedit.drain
     - worldedit.extinguish
-    - worldedit.history.*
-    - worldedit.navigation.*
-    - worldedit.region.*
-    - worldedit.remove
-    - worldedit.selection.*
-    - worldedit.tool.info
-    - worldedit.wand
-    - worldedit.wand.toggle

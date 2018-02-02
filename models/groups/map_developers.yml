@@ -5,14 +5,11 @@ badge_color: "#006bd2"
 badge_link: "/staff"
 minecraft_permissions:
   global:
-  - bukkit.command.gamerule
   - chat.developer
-  - flair.mapdev
   - lobby.fly
   - map.rating.view.live
   - mutation.set
-  - nick.see-through-all
-  - ocn.version
+  - mutation.list
   - pgm.blitz
   - pgm.cancel
   - pgm.cycle
@@ -33,20 +30,12 @@ minecraft_permissions:
   - pgm.timelimit
   - pgm.updatemap
   - poll.veto
-  - projectares.freeze.exempt
   - raindrops.multiplier.250
   - server.cancelrestart
   - server.queuerestart
   - server.restart
   - setting.developerchat
-  - setting.nick
-  - setting.nick.any.get
-  - setting.nick.immediate
-  - setting.nick.set
-  - setting.nick.unlimited
-  - setting.nick.view
   - whitelist.bypass
-  - whitelist.edit
   - worldedit.*
   - worldedit.analysis.*
   - worldedit.clipboard.*
@@ -65,3 +54,62 @@ minecraft_flair:
   global:
     symbol: "MAP DEV "
     color: blue
+web_permissions:
+  forum:
+    5a7243147e43a638b4000021: #Staff:Map Devs
+      topic:
+        view:
+          status:
+            locked: all
+            hidden: own
+        index_parent: all
+        index:
+          status:
+            locked: all
+            hidden: own
+        view_parent: all
+        create: true
+        reply: all
+        hide: own
+      post:
+        view_parent: all
+        hide: own
+        edit_parent: own
+    5a6fbc9d7e43a61097000008: #Zildith: Ask the Staff
+      topic:
+        reply: all
+    5a6fbd9e7e43a6109a000010: #Maps:Map Making
+      topic:
+        index:
+          status:
+            locked: all
+            hidden: all
+        view_parent: all
+        create: true
+        reply: all
+        hide: all
+      post:
+        view_parent: all
+        hide: all
+        edit_parent: own
+    5a6fbdb37e43a6109a000011: #Maps:Map Releases
+      topic:
+        index:
+          status:
+            locked: all
+            hidden: all
+        view_parent: all
+        create: true
+        reply: all
+        hide: all
+      post:
+        view_parent: all
+        hide: all
+        edit_parent: own
+  map:
+    phase:
+      development:
+        view: all
+    rating:
+      view:
+        private: all

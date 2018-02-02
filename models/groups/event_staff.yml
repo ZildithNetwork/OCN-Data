@@ -10,9 +10,6 @@ minecraft_permissions:
   - pgm.chat.all.receive
   - pgm.fullserver
   - pgm.join.force
-  - projectares.reports.receive
-  - projectares.reports.view
-  - projectares.reports.view.other
   - projectares.staff
   - tourney.referee
 staff: true
