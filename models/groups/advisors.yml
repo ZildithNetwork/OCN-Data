@@ -1,6 +1,5 @@
-name: Advisor
+name: Advisors
 priority: 800
-html_color: "#DF21B7"
 badge_color: "#DF21B7"
 minecraft_flair:
   global:
