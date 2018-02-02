@@ -1,0 +1,8 @@
+name: Advisor
+priority: 800
+html_color: "#DF21B7"
+badge_color: "#DF21B7"
+minecraft_flair:
+  global:
+    color: light_purple
+    symbol: "ά"
