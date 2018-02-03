@@ -173,6 +173,7 @@ minecraft_permissions:
     - ocn.punishments.warn
     - ocn.version
     - overcast.premium
+    - pgm.chat.all.receive
     - pgm.defuse
     - pgm.fullserver
     - pgm.join
@@ -207,4 +208,15 @@ minecraft_permissions:
     - setting.nick.immediate
     - setting.nick.set
     - setting.nick.unlimited
+    - skin.change    
+    - worldedit.analysis.*
+    - worldedit.drain
     - worldedit.extinguish
+    - worldedit.history.*
+    - worldedit.navigation.*
+    - worldedit.region.*
+    - worldedit.remove
+    - worldedit.selection.*
+    - worldedit.tool.info
+    - worldedit.wand
+    - worldedit.wand.toggle
