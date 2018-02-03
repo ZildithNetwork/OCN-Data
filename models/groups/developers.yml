@@ -56,3 +56,6 @@ minecraft_flair:
   global:
     symbol: "DEV "
     color: dark_purple
+web_permissions:
+  site:
+    admin: true

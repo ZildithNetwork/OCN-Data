@@ -58,3 +58,6 @@ minecraft_flair:
   global:
     symbol: "Admin "
     color: gold
+web_permissions:
+  site:
+    admin: true
