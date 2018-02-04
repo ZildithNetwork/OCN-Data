@@ -59,8 +59,3 @@ minecraft_flair:
 web_permissions:
   site:
     admin: true
-  forum:
-    parent:
-      admin: true
-  group:
-    admin: true
