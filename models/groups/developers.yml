@@ -64,12 +64,9 @@ web_permissions:
       manage: true
       admin: true
   group:
-    manage: true
-    admin: true
-  user:
-    profile:
-      verified:
-        edit: all
+    parent:
+      manage: true
+      admin: true
   misc:
     alt:
       index: all
