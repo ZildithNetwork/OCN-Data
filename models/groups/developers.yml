@@ -59,3 +59,19 @@ minecraft_flair:
 web_permissions:
   site:
     admin: true
+  forum:
+    parent:
+      manage: true
+      admin: true
+  group:
+    manage: true
+    admin: true
+  user:
+    profile:
+      verified:
+        edit: all
+  misc:
+    alt:
+      index: all
+    peek:
+      view: true
