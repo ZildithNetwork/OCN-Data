@@ -165,13 +165,15 @@ web_permissions:
     index: own
     view: own
     comment: own
-    action_on_escalated:
-      comment: own
+    escalate:
+      immediately: own
   appeal:
     create: true
     view: own
     comment: own
     index: own
+    escalate:
+      immediately: own
     action_on_closed:
       comment: own
       escalate: own
