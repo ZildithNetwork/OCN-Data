@@ -35,6 +35,25 @@ web_permissions:
         view_parent: all
         hide: all
         edit_parent: all
+    5a7ba0fd7e43a63d6d000011: #Staff:General
+        topic:
+          view:
+            status:
+              locked: all
+              hidden: own
+          index_parent: all
+          index:
+            status:
+              locked: all
+              hidden: own
+          view_parent: all
+          create: true
+          reply: all
+          hide: own
+        post:
+          view_parent: all
+          hide: own
+          edit_parent: own
     5a70d97a7e43a65a0300000b: #Staff:Moderators
       topic:
         view:

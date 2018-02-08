@@ -14,3 +14,24 @@ minecraft_permissions:
   - pgm.join
   - pgm.join.choose
   - pgm.join.full
+web_permissions:
+  forum:
+    5a7ba0fd7e43a63d6d000011: #Staff:General
+      topic:
+        view:
+          status:
+            locked: all
+            hidden: own
+        index_parent: all
+        index:
+          status:
+            locked: all
+            hidden: own
+        view_parent: all
+        create: true
+        reply: all
+        hide: own
+      post:
+        view_parent: all
+        hide: own
+        edit_parent: own
