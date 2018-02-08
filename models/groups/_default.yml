@@ -28,6 +28,25 @@ web_permissions:
     5a6fb8c97e43a61097000007: #Announcements
       topic:
         create: false
+    5a7ba0fd7e43a63d6d000011: #Staff:General
+      topic:
+        view:
+          status:
+            locked: none
+            hidden: none
+        index_parent: none
+        index:
+          status:
+            locked: none
+            hidden: none
+        view_parent: none
+        create: false
+        reply: none
+        hide: none
+      post:
+        view_parent: none
+        hide: none
+        edit_parent: none
     5a70d97a7e43a65a0300000b: #Staff:Moderators
       topic:
         view:
