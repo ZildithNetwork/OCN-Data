@@ -66,6 +66,25 @@ web_permissions:
         view_parent: none
         hide: none
         edit_parent: none
+    5a86214d7e43a63a6d00002c: #Staff:Administrators
+      topic:
+        view:
+          status:
+            locked: none
+            hidden: none
+        index_parent: none
+        index:
+          status:
+            locked: none
+            hidden: none
+        view_parent: none
+        create: false
+        reply: none
+        hide: none
+      post:
+        view_parent: none
+        hide: none
+        edit_parent: none
     5a70da607e43a65a01000005: #Staff:Candidates
       topic:
         view:
