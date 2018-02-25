@@ -9,6 +9,7 @@ minecraft_permissions:
   - "-nocheatplus.mods.rei"
   - "-projectares.report.exempt"
   ## ## ## ## ## ##
+  - ab.all.undo
   - ab.kick.use
   - ab.ban.perma
   - ab.ban.temp
@@ -20,6 +21,10 @@ minecraft_permissions:
   - ab.changeReason
   - ab.check
   - ab.check.ip
+  - ab.banlist
+  - ab.history
+  - ab.help
+  - ab.reload
   ## ## ## ## ## ##
   - bukkit.command.gamemode
   - bukkit.command.gamerule

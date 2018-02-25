@@ -195,6 +195,8 @@ minecraft_permissions:
     - ab.warn.notify
     - ab.warns.other
     - ab.check
+    - ab.history
+    - ab.help
     ## ## ## ## ## ##
     - chat.mod
     - chat.premium
