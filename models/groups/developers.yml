@@ -6,6 +6,19 @@ badge_link: "/staff"
 minecraft_permissions:
   global:
   - "-projectares.report.exempt"
+  ## ## ## ## ## ##
+  - ab.kick.use
+  - ab.ban.perma
+  - ab.ban.temp
+  - ab.ban.undo
+  - ab.warn.perma
+  - ab.warn.undo
+  - ab.warn.notify
+  - ab.warns.other
+  - ab.changeReason
+  - ab.check
+  - ab.check.ip
+  ## ## ## ## ## ##
   - bukkit.command.gamemode
   - bukkit.command.gamerule
   - chat.admin

@@ -145,7 +145,7 @@ web_permissions:
     5a6fbc9d7e43a61097000008: #Zildith: Ask the Staff
       topic:
         reply: own
-    5a6fbe4f7e43a6109a000012: #Applications:Mod Apps
+    5a6fbe4f7e43a6109a000012: #Other:Mod Apps
       topic:
         view:
           status:
@@ -156,7 +156,7 @@ web_permissions:
         create: false
         reply: none
         hide: none
-    5a73a5eb7e43a638b7000023: #Applications:Other
+    5a73a5eb7e43a638b7000023: #Other:Other Apps
       topic:
         view:
           status:
@@ -167,6 +167,17 @@ web_permissions:
         create: false
         reply: none
         hide: none
+    5a9255db7e43a658b200001e: #Other:Appeals
+      topic:
+        view:
+          status:
+            locked: own
+            hidden: own
+        index_parent: own
+        view_parent: own
+        create: true
+        reply: own
+        hide: own
   punishment:
     view:
       type:
@@ -232,6 +243,10 @@ web_permissions:
     download: own
 minecraft_permissions:
   global:
+  ## ## ## ## ## ##
+  - ab.kick.notify
+  - ab.ban.notify
+  ## ## ## ## ## ##
   - mutation.list
   - ocn.login
   - "-commandbook.slay"

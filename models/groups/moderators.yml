@@ -96,6 +96,17 @@ web_permissions:
     5a6fbc9d7e43a61097000008: #Zildith: Ask the Staff
       topic:
         reply: all
+    5a9255db7e43a658b200001e: #Other:Appeals
+      topic:
+        view:
+          status:
+            locked: all
+            hidden: all
+        index_parent: all
+        view_parent: all
+        create: false
+        reply: all
+        hide: all
   punishment:
     view:
       type:
@@ -176,6 +187,15 @@ minecraft_permissions:
   global:
     - nick.see-through-all
   normal:
+    ## ## ## ## ## ##
+    - ab.kick.use
+    - ab.ban.perma
+    - ab.ban.temp
+    - ab.warn.perma
+    - ab.warn.notify
+    - ab.warns.other
+    - ab.check
+    ## ## ## ## ## ##
     - chat.mod
     - chat.premium
     - chatmoderator.filters.exempt
