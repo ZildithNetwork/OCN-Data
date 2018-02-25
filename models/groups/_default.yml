@@ -246,6 +246,7 @@ minecraft_permissions:
   ## ## ## ## ## ##
   - ab.kick.notify
   - ab.ban.notify
+  - ab.warns.own
   ## ## ## ## ## ##
   - mutation.list
   - ocn.login
