@@ -17,6 +17,7 @@ minecraft_permissions:
   - ab.warn.perma
   - ab.warn.undo
   - ab.warn.notify
+  - ab.warns
   - ab.warns.other
   - ab.changeReason
   - ab.check

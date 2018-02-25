@@ -193,6 +193,7 @@ minecraft_permissions:
     - ab.ban.temp
     - ab.warn.perma
     - ab.warn.notify
+    - ab.warns
     - ab.warns.other
     - ab.check
     - ab.history
@@ -201,7 +202,6 @@ minecraft_permissions:
     - chat.mod
     - chat.premium
     - chatmoderator.filters.exempt
-    - flair.mod
     - lobby.disabled-permissions-exempt
     - lobby.fly
     - mutation.list
