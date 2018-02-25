@@ -206,9 +206,9 @@ minecraft_permissions:
     - lobby.fly
     - mutation.list
     - nick.see-through-all
-    - ocn.punishments
-    - ocn.punishments.ban
-    - ocn.punishments.kick
+  #  - ocn.punishments             # Temporarily replaced by AdvancedBans
+  #  - ocn.punishments.ban
+  #  - ocn.punishments.kick
     - ocn.punishments.lookup.stale
 #    - ocn.punishments.punish
     - ocn.punishments.warn
