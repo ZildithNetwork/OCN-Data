@@ -248,7 +248,8 @@ minecraft_permissions:
     - setting.nick.immediate
     - setting.nick.set
     - setting.nick.unlimited
-    - skin.change    
+    - skin.change
+    - whitelist.bypass
     - worldedit.analysis.*
     - worldedit.drain
     - worldedit.extinguish
