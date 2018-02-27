@@ -8,7 +8,9 @@ minecraft_permissions:
   - "-nocheatplus.checks"
   - "-nocheatplus.mods.rei"
   - "-projectares.report.exempt"
-  - gssentials.*
+  - gssentials.admin.alert
+  - gssentials.admin.send
+  - gssentials.admin.sendall
   ## ## ## ## ## ##
   - ab.all.undo
   - ab.kick.use

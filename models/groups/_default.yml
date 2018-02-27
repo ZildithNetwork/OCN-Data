@@ -243,6 +243,7 @@ web_permissions:
     download: own
 minecraft_permissions:
   global:
+  - gssentials.announcement
   ## ## ## ## ## ##
   - ab.kick.notify
   - ab.ban.notify

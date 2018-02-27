@@ -6,7 +6,9 @@ badge_link: "/staff"
 minecraft_permissions:
   global:
   - "-projectares.report.exempt"
-  - gssentials.*
+  - gssentials.admin.alert
+  - gssentials.admin.send
+  - gssentials.admin.sendall
   ## ## ## ## ## ##
   - ab.all.undo
   - ab.kick.use
