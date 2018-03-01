@@ -35,7 +35,7 @@ web_permissions:
         view_parent: all
         hide: all
         edit_parent: all
-    5a7ba0fd7e43a63d6d000011: #Staff:General
+    5a9768ca7e43a63a3d000010: #Staff:General
         topic:
           view:
             status:
@@ -54,7 +54,7 @@ web_permissions:
           view_parent: all
           hide: own
           edit_parent: own
-    5a70d97a7e43a65a0300000b: #Staff:Moderators
+    5a9766477e43a63a4000000f: #Staff:Moderators
       topic:
         view:
           status:
@@ -74,7 +74,7 @@ web_permissions:
         view_parent: all
         hide: all
         edit_parent: own
-    5a70da607e43a65a01000005: #Staff:Candidates
+    5a9766367e43a63a4000000e: #Staff:Candidates
       topic:
         view:
           status:
@@ -93,10 +93,10 @@ web_permissions:
         view_parent: all
         hide: all
         edit_parent: all
-    5a6fbc9d7e43a61097000008: #Zildith: Ask the Staff
+    5a9765217e43a63a3d00000a: #Zildith: Ask the Staff
       topic:
         reply: all
-    5a9255db7e43a658b200001e: #Other:Appeals
+    5a9765da7e43a63a3d00000e: #Other:Appeals
       topic:
         view:
           status:
@@ -104,7 +104,7 @@ web_permissions:
             hidden: all
         index_parent: all
         view_parent: all
-        create: false
+        create: true
         reply: all
         hide: all
   punishment:

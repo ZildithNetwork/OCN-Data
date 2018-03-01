@@ -7,7 +7,7 @@ minecraft_flair:
     symbol: "ά"
 web_permissions:
   forum:
-    5a7ba0fd7e43a63d6d000011: #Staff:General
+    5a9768ca7e43a63a3d000010: #Staff:General
       topic:
         view:
           status:

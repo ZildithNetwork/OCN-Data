@@ -56,7 +56,7 @@ minecraft_flair:
     color: blue
 web_permissions:
   forum:
-    5a7243147e43a638b4000021: #Staff:Map Devs
+    5a97662c7e43a63a3d00000f: #Staff:Map Devs
       topic:
         view:
           status:
@@ -75,7 +75,7 @@ web_permissions:
         view_parent: all
         hide: own
         edit_parent: own
-    5a7ba0fd7e43a63d6d000011: #Staff:General
+    5a9768ca7e43a63a3d000010: #Staff:General
       topic:
         view:
           status:
@@ -94,7 +94,7 @@ web_permissions:
         view_parent: all
         hide: own
         edit_parent: own
-    5a6fbc9d7e43a61097000008: #Zildith: Ask the Staff
+    5a9765217e43a63a3d00000a: #Zildith: Ask the Staff
       topic:
         reply: all
     5a6fbd9e7e43a6109a000010: #Maps:Map Making
