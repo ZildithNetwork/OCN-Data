@@ -13,6 +13,7 @@ minecraft_permissions:
   - ab.history
   - ab.reload
   - database.reload
+  - lobby.restricted.access
 web_permissions:
   forum:
     5a9768ca7e43a63a3d000010: #Staff:General
