@@ -9,7 +9,6 @@ minecraft_permissions:
   global:
   - whitelist.bypass
   - chat.admin
-  - pgm.updatemap
   - ab.banlist
   - ab.history
   - ab.reload
