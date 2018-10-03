@@ -4,7 +4,16 @@ badge_color: "#DF21B7"
 minecraft_flair:
   global:
     color: light_purple
-    symbol: "ά"
+    symbol: "ά "
+minecraft_permissions:
+  global:
+  - whitelist.bypass
+  - chat.admin
+  - ab.banlist
+  - ab.history
+  - ab.reload
+  - database.reload
+  - lobby.restricted.access
 web_permissions:
   forum:
     5a9768ca7e43a63a3d000010: #Staff:General
